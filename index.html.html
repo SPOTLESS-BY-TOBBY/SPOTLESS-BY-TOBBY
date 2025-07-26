@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotless by Tobby</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #1a1a1a;
+    }
+    header {
+      background: linear-gradient(90deg, #004d40, #00695c);
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: linear-gradient(to right, #004d40 50%, #f5f5dc 50%);
+      padding: 60px 40px;
+    }
+    .hero .text {
+      color: white;
+      max-width: 50%;
+    }
+    .hero .text h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    .hero .text button {
+      background-color: #f5f5dc;
+      color: #004d40;
+      border: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .hero img {
+      max-width: 300px;
+    }
+    section {
+      padding: 60px 40px;
+    }
+    .two-column {
+      display: flex;
+      gap: 40px;
+    }
+    .services ul, .why-choose-us ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li, .why-choose-us li {
+      margin-bottom: 15px;
+      font-weight: 500;
+    }
+    .areas, .testimonials {
+      background-color: #f5f5dc;
+      padding: 40px;
+      text-align: center;
+    }
+    .testimonials-grid {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .contact {
+      display: flex;
+      gap: 40px;
+    }
+    .contact input, .contact textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      font-family: 'Poppins';
+    }
+    .contact button {
+      background-color: #004d40;
+      color: white;
+      padding: 10px;
+      border: none;
+    }
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>SPOTLESS BY TOBBY</strong></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About Us</a>
+      <a href="#areas">Service Areas</a>
+      <a href="#contact">Contact</a>
+      <span>📞 +254714670083</span>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="text">
+      <h1>Redefining Clean. One Spot at a Time.</h1>
+      <p>Now serving Kisumu, Kakamega, and Siaya</p>
+      <button>Get a Free Quote</button>
+    </div>
+    <img src="your-logo.png" alt="Spotless Logo" />
+  </section>
+
+  <section class="services two-column" id="services">
+    <div>
+      <h2>Our Services</h2>
+      <ul>
+        <li>🧼 Residential Cleaning</li>
+        <li>🧽 Office Cleaning</li>
+        <li>🧴 Deep Cleaning</li>
+        <li>🪣 Move-In/Move-Out Cleaning</li>
+        <li>🧹 Post-Construction Cleaning</li>
+      </ul>
+    </div>
+    <div>
+      <button>View Full Service List</button>
+    </div>
+  </section>
+
+  <section class="why-choose-us two-column">
+    <div>
+      <h2>Why Choose Us</h2>
+      <ul>
+        <li>🕒 Always On Time</li>
+        <li>🧼 Detail-Focused</li>
+        <li>👷‍♂️ Trusted & Vetted Team</li>
+        <li>💬 Friendly Customer Support</li>
+      </ul>
+    </div>
+    <div>
+      <img src="cleaner-image.png" alt="Cleaner smiling" style="max-width: 100%; border-radius: 10px;" />
+    </div>
+  </section>
+
+  <section class="areas" id="areas">
+    <h2>Service Areas</h2>
+    <p>Kisumu | Kakamega | Siaya</p>
+    <button>Check Availability in Your Area</button>
+  </section>
+
+  <section class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonials-grid">
+      <div>⭐⭐⭐⭐⭐<br>“My house has never looked better!” – Joyce</div>
+      <div>⭐⭐⭐⭐⭐<br>“Reliable team, great rates.” – Kevin</div>
+      <div>⭐⭐⭐⭐⭐<br>“Highly recommend.” – Maria</div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div>
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="tel" placeholder="Phone Number" required />
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div>
+      <h3>Get in Touch</h3>
+      <p>📍 Kisumu HQ</p>
+      <p>📞 +254729658607</p>
+      <p>📞 +254714670083</p>
+      <p>✉️ spotlessbytobby@email.com</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>📸 Instagram | 📘 Facebook | 🟢 WhatsApp</p>
+    <p>© 2025 Spotless by Tobby. All rights reserved.</p>
+  </footer>
+</body>
+</html>
